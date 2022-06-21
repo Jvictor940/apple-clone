@@ -3,8 +3,8 @@ import React from "react";
 function Macairsec() {
     return(
         <section className='hero MacBook-Air'>
-        <div className='container'>
-        <div className='title'>
+        <div className='container-air'>
+        <div className='title-air'>
             <h2 className='title-heading'>MacBook Air</h2>
             <h3 className='title-sub-heading'>Supercharged by
             <span className="M2-logo"></span>

@@ -115,12 +115,12 @@ header {
 } */
 
 .MacBook-Air {
-    width: 2000px;
+    width: 3008px;
     height: 624px;
-    background-size: 2000px 624px;
+    background-size: 3008px 624px;
     background-repeat: no-repeat;
     background-position: center;
-    margin-left: -700px;
+    margin-left: -300px;
     /* position: absolute; */
     background: url(https://www.apple.com/v/home/ap/images/heroes/macbook-air/hero_macbookair__el7scava26mq_large.png);
 }
@@ -167,11 +167,26 @@ header {
     width: 50%;
 }
 
-.title {
+.container-air {
     color: #1d1d1f;
+    /* text-align: center;
+    padding-top: 5.5rem; */
     text-align: center;
-    padding-top: 5.5rem;
+    position: relative;
+    top: 40%;
+    right: 5%;
 }
+
+/* .title .cta {
+    text-align: center;
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    flex-shrink: 1;
+    padding-top: 50%;
+} */
 
 .title-heading {
     font-size: 48px;
@@ -203,13 +218,3 @@ header {
     content: url(https://cdn.mos.cms.futurecdn.net/XQBhok4zTyzXmy5zD7e6fZ.jpg);
 }
 
-.title .cta {
-    text-align: center;
-    display: block;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-    flex-shrink: 1;
-    padding-top: 50%;
-}
