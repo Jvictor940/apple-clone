@@ -1,6 +1,7 @@
 import './App.css';
 import Nav from './Components/Nav'
 import Homepage from './Components/Homepage';
+import Mac from './Components/Mac';
 import { useState } from 'react'
 import { Switch, Route } from 'react-router-dom'
 
@@ -15,15 +16,15 @@ function App() {
 
       <Switch>
 
-          {/* <Route path="/mac">
+          <Route path="/Mac">
             <Mac />
           </Route>
 
-          <Route exact path="/iphone">
+          {/* <Route exact path="/iphone">
             <Iphone />
-          </Route>
+          </Route> */}
 
-          <Route exact path="/ipad">
+          {/* <Route exact path="/ipad">
             <Ipad />
           </Route> */}
 

@@ -14,7 +14,7 @@ function Macbookprosec() {
         </div>
         <div className='cta cta-dark'>
             <a href='https://www.apple.com/macbook-pro-13/' className='cta-link'>Learn more</a>
-            <a href='https://www.apple.com/shop/buy-mac/macbook-pro/13-inch-space-gray-apple-m2-chip-with-8-core-cpu-and-10-core-gpu-512gb' className='cta-link'>Order now</a>
+            <a href='https://www.apple.com/shop/bag' className='cta-link'>Order now</a>
         </div>
         <figure className="MacBook-Pro-figure"></figure>
         </div>

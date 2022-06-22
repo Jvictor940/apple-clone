@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 function Nav() {
     return (
         <header>
@@ -13,16 +14,16 @@ function Nav() {
                         </div>
                     </li>
                     <li className="nav-item">
-                        <a href="/" className="nav-link nav-link-apple">
-                            <img src="https://www.apple.com/ac/globalnav/7/en_US/images/be15095f-5a20-57d0-ad14-cf4c638e223a/globalnav_apple_image__b5er5ngrzxqq_small.svg" />
-                        </a>
                     </li>
                     <li className="nav-item">
-                        <a href="#" className="nav-link nav-link-bag"></a>
+                    <a href="#" className="nav-link nav-link-bag"></a>
                     </li>
                 </ul> */}
                 {/* Main Nav */}
                 <ul className="nav-list nav-list-larger"> 
+                    <a href="/" className="nav-link nav-link-apple">
+                        <img src="https://www.apple.com/ac/globalnav/7/en_US/images/be15095f-5a20-57d0-ad14-cf4c638e223a/globalnav_apple_image__b5er5ngrzxqq_small.svg" className="apple-logo"/>
+                    </a>
                     <li className="nav-item nav-item-hidden">
                         <a href="/" className="nav-link nav-link-apple"></a>
                     </li>
@@ -30,19 +31,20 @@ function Nav() {
                         <a href="#" className="nav-link">Store</a>
                     </li>
                     <li className="nav-item">
-                        <a href="#" className="nav-link">Mac</a>
+                        {/* <a href="#" className="nav-link">Mac</a> */}
+                        <Link to="/Mac" className="nav-link">Mac</Link>
                     </li>
                     <li className="nav-item">
-                        <a href="#" className="nav-link">iPad</a>
+                        <Link to="/iPad" className="nav-link">iPad</Link>
                     </li>
                     <li className="nav-item">
-                        <a href="#" className="nav-link">iPhone</a>
+                        <Link to="/iPhone" className="nav-link">iPhone</Link>
                     </li>
                     <li className="nav-item">
-                        <a href="#" className="nav-link">Watch</a>
+                        <Link to="/Watch" className="nav-link">Watch</Link>
                     </li>
                     <li className="nav-item">
-                        <a href="#" className="nav-link">Airpods</a>
+                        <Link to="/Airpods" className="nav-link">Airpods</Link>
                     </li>
                     <li className="nav-item">
                         <a href="#" className="nav-link">TV & Home</a>
