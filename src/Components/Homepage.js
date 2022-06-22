@@ -5,6 +5,7 @@ import Macairsec from "./Macairsec";
 import Macbookprosec from "./Macbookprosec";
 import Tiles from "./Tiles";
 
+
 function Homepage() {
     return(
         <div className="Homepage">
@@ -13,6 +14,7 @@ function Homepage() {
             <Iphonesec />
             <Tiles />
         </div>
+    
     )
 }
 export default Homepage

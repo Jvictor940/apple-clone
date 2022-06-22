@@ -5,7 +5,7 @@ function Nav() {
         <div className="nav-container">
             <nav className="nav"> 
             {/* Mobile Nav list */}
-                <ul className="nav-list nav-list-mobile"> 
+                {/* <ul className="nav-list nav-list-mobile"> 
                  <li className="nav-item">
                         <div className="mobile-menu">
                             <span className="line line-top"></span>
@@ -14,13 +14,13 @@ function Nav() {
                     </li>
                     <li className="nav-item">
                         <a href="/" className="nav-link nav-link-apple">
-                            {/* <img src="https://www.apple.com/ac/globalnav/7/en_US/images/be15095f-5a20-57d0-ad14-cf4c638e223a/globalnav_apple_image__b5er5ngrzxqq_small.svg" /> */}
+                            <img src="https://www.apple.com/ac/globalnav/7/en_US/images/be15095f-5a20-57d0-ad14-cf4c638e223a/globalnav_apple_image__b5er5ngrzxqq_small.svg" />
                         </a>
                     </li>
                     <li className="nav-item">
                         <a href="#" className="nav-link nav-link-bag"></a>
                     </li>
-                </ul>
+                </ul> */}
                 {/* Main Nav */}
                 <ul className="nav-list nav-list-larger"> 
                     <li className="nav-item nav-item-hidden">
@@ -60,7 +60,7 @@ function Nav() {
                         <a href="#" className="nav-link nav-link-search">
                         </a>
                     </li>
-                    <li className="nav-item nav-item-hidden">
+                    <li className="nav-item">
                         <a href="#" className="nav-link nav-link-bag"></a>
                     </li>
                 </ul>

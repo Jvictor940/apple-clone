@@ -2,7 +2,7 @@ import React from "react";
 
 function Macairsec() {
     return(
-        <section className='hero MacBook-Air'>
+    <section className='hero MacBook-Air'>
         <div className='container-air'>
         <div className='title-air'>
             <h2 className='title-heading'>MacBook Air</h2>
@@ -12,8 +12,8 @@ function Macairsec() {
             <p className='title-price'>Available next month</p>
         </div>
         <div className='cta'>
-            <a href='#' className='cta-link'>Learn more</a>
-            <a href='#' className='cta-link'>Buy</a>
+            <a href='https://www.apple.com/macbook-air-m2/' className='cta-link'>Learn more</a>
+            <a href='#' className='cta-link'>View Pricing</a>
         </div>
         <figure className="MacBook-Air-figure"></figure>
         </div>

@@ -4,7 +4,7 @@ import React from "react";
 function Iphonesec() {
     return (
         <section className='hero iphone-13-pro'>
-        <div className='container'>
+        <div className='container-iphone'>
         <div className='title'>
             <h4 className='title-heading'>iPhone 13</h4>
             <h5 className='title-sub-heading'>Your new superpower.</h5>
