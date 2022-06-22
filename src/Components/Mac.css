@@ -1,4 +1,4 @@
-.Mac {
+/* .Mac {
     position: absolute;
     bottom: 50%;
     margin-left: 50%;
@@ -6,4 +6,16 @@
 
 .Mac1 {
     text-align: center;
+} */
+/* 
+.Video {
+    height: 1%;
+    width: 1%;
+} */
+
+
+.background-video {
+    z-index: -1;
+    height: 100%;
+    width: 100%;
 }
