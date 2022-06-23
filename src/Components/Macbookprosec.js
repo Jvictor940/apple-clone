@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Macbookprosec() {
     return(
@@ -13,7 +14,8 @@ function Macbookprosec() {
             <p className='title-price price-dark'>Available starting 6.24</p>
         </div>
         <div className='cta cta-dark'>
-            <a href='https://www.apple.com/macbook-pro-13/' className='cta-link'>Learn more</a>
+            {/* <a href='https://www.apple.com/macbook-pro-13/' className='cta-link'>Learn more</a> */}
+            <Link to='/Macprolearn' className='cta-link'>Learn more</Link>
             <a href='https://www.apple.com/shop/bag' className='cta-link'>Order now</a>
         </div>
         <figure className="MacBook-Pro-figure"></figure>
