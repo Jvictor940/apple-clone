@@ -216,3 +216,15 @@ body {
     } */
   }
 
+  .mac-background-video {
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    /* bottom: 1000%; */
+  }
+
+  .mac-video {
+    align-items: center;
+    /* bottom: 100%; */
+  }
+

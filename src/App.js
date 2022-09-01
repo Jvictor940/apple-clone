@@ -5,6 +5,7 @@ import Mac from './Components/Mac';
 import Macprolearn from './Components/Macprolearn';
 import { useState } from 'react'
 import { Switch, Route } from 'react-router-dom'
+import Airpod from './Components/Airpod';
 
 function App() {
   // const [page, setPage] = useState("/")
@@ -32,9 +33,9 @@ function App() {
             <Ipad />
           </Route> */}
 
-          {/* <Route exact path="/airpods">
+          <Route exact path="/airpods">
             <Airpod />
-          </Route> */}
+          </Route>
 
           <Route exact path="/">
             <Homepage />

@@ -12,7 +12,7 @@ function Iphonesec() {
         </div>
         <div className='cta'>
             <a href='#' className='cta-link'>Learn more</a>
-            <a href='#' className='cta-link'>Buy</a>
+            <a href='https://www.apple.com/shop/buy-iphone/iphone-13?bfil=2&cppart=UNLOCKED/US&product=MNGD3LL/A&purchaseOption=fullPrice&step=attach' className='cta-link'>Buy</a>
         </div>
         <figure className="iphone-13-pro"></figure>
         </div>

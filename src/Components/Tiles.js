@@ -21,7 +21,7 @@ function Tiles() {
                 <h5>It's our largest display yet</h5>
                 <div className='cta'>
                     <a href='#' className='cta-link'>Learn more</a>
-                    <a href='#' className='cta-link'>Buy</a>
+                    <a href='https://www.apple.com/shop/buy-watch/apple-watch?bfil=2&option.watch_cases=MKND3LL/A&option.watch_bands=MKU83AM/A&product=MKMX3LL/A&step=watchattach' className='cta-link'>Buy</a>
                 </div>
             </div>
         </div>
